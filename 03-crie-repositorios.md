@@ -19,11 +19,11 @@ git init [nome-do-projeto]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- O comando git init serve para inicializar (criar) um repositório Git do zero dentro de uma pasta no seu computador. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para iniciar o controle de versão de um projeto totalmente novo que você está criando na sua máquina. -->
 
 ---
 
@@ -35,18 +35,18 @@ git clone [url]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Baixa uma cópia completa de um repositório remoto para o seu computador local. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use quando quiser começar a trabalhar em um projeto que já existe no GitHub ou em outro servidor remoto. -->
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git init [nome-do-projeto]`
-- [ ] 2. `git clone [url]`
+- [X] 1. `git init [nome-do-projeto]`
+- [X] 2. `git clone [url]`
 
 ---
 
