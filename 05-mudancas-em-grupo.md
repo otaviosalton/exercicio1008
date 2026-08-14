@@ -19,11 +19,11 @@ git branch
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Lista todas as branches locais existentes no repositório e indica qual está ativa. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para verificar em qual branch você está trabalhando no momento antes de criar ou alterar código. -->
 
 ---
 
@@ -35,11 +35,11 @@ git branch [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Cria uma nova branch local com o nome especificado a partir do commit atual. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use quando for iniciar o desenvolvimento de uma nova funcionalidade sem alterar a branch principal. -->
 
 ---
 
@@ -51,11 +51,11 @@ git switch -c [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Cria uma nova branch e alterna para ela imediatamente em um único comando. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!--Use para economizar tempo ao criar uma linha de trabalho e já mudar direto para ela. -->
 
 ---
 
@@ -67,11 +67,11 @@ git merge [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Combina o histórico de alterações da branch especificada para dentro da branch em que você está atualmente. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para integrar o trabalho concluído de uma funcionalidade de volta à branch principal do projeto. -->
 
 ---
 
@@ -83,21 +83,21 @@ git branch -d [nome-do-branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Deleta a branch local especificada após garantir que suas alterações já foram mescladas. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para manter o repositório limpo excluindo branches antigas de tarefas que já foram finalizadas. -->
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git branch`
-- [ ] 2. `git branch [nome-do-branch]`
-- [ ] 3. `git switch -c [nome-do-branch]`
-- [ ] 4. `git merge [nome-do-branch]`
-- [ ] 5. `git branch -d [nome-do-branch]`
+- [x] 1. `git branch`
+- [x] 2. `git branch [nome-do-branch]`
+- [x] 3. `git switch -c [nome-do-branch]`
+- [x] 4. `git merge [nome-do-branch]`
+- [x] 5. `git branch -d [nome-do-branch]`
 
 ---
 
