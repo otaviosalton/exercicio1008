@@ -19,11 +19,11 @@ git stash
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Guarda temporariamente todas as alterações não salvas do seu diretório de trabalho limpando a branch. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use quando precisar trocar de branch rapidamente para resolver algo urgente sem precisar fazer um commit incompleto. -->
 
 ---
 
@@ -35,11 +35,11 @@ git stash pop
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Restaura as últimas alterações guardadas no stash e as remove da lista do stash ao mesmo tempo. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para recuperar e continuar o trabalho temporariamente guardado assim que retornar para a sua branch. -->
 
 ---
 
@@ -51,11 +51,11 @@ git stash list
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Exibe uma lista com todos os conjuntos de alterações temporárias que você guardou no stash. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para conferir os identificadores dos seus rascunhos salvos quando tiver mais de um stash criado. -->
 
 ---
 
@@ -67,20 +67,20 @@ git stash drop
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Descarta definitivamente o conjunto de alterações temporárias mais recente ou o stash especificado. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para apagar rascunhos salvos do stash que você não vai mais utilizar para não acumular sujeira. -->
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git stash`
-- [ ] 2. `git stash pop`
-- [ ] 3. `git stash list`
-- [ ] 4. `git stash drop`
+- [X] 1. `git stash`
+- [X] 2. `git stash pop`
+- [X] 3. `git stash list`
+- [X] 4. `git stash drop`
 
 ---
 
