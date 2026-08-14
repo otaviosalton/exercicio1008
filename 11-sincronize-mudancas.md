@@ -19,11 +19,11 @@ git fetch [nome-remoto]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!--Baixa todo o histórico e branches do repositório remoto sem alterar os seus arquivos locais. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para conferir as novidades no GitHub antes de decidir juntar as alterações com o seu trabalho. -->
 
 ---
 
@@ -35,11 +35,11 @@ git merge [nome-remoto]/[branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Junta as alterações que foram baixadas do repositório remoto para dentro da sua branch local atual. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use logo após o git fetch para aplicar as novidades da nuvem no seu projeto local. -->
 
 ---
 
@@ -51,11 +51,11 @@ git push [alias] [branch]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Envia os commits da sua branch local diretamente para a branch especificada no repositório remoto. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use sempre que terminar um bloco de tarefas para salvar e compartilhar o seu código no GitHub.-->
 
 ---
 
@@ -67,20 +67,20 @@ git pull
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!--Baixa o conteúdo do repositório remoto e atualiza imediatamente a sua branch local atual. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!--Use no início do dia para sincronizar seu computador com o código mais recente enviado pela equipe. -->
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git fetch [nome-remoto]`
-- [ ] 2. `git merge [nome-remoto]/[branch]`
-- [ ] 3. `git push [alias] [branch]`
-- [ ] 4. `git pull`
+- [X] 1. `git fetch [nome-remoto]`
+- [X] 2. `git merge [nome-remoto]/[branch]`
+- [X] 3. `git push [alias] [branch]`
+- [X] 4. `git pull`
 
 ---
 
