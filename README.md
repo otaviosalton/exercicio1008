@@ -213,6 +213,8 @@ git push
 | 09 | [09-revise-o-historico.md](comandos/09-revise-o-historico.md) | Revise o histórico | 4 | [ ] |
 | 10 | [10-desfaca-commits.md](comandos/10-desfaca-commits.md) | Desfaça commits | 2 | [ ] |
 | 11 | [11-sincronize-mudancas.md](comandos/11-sincronize-mudancas.md) | Sincronize mudanças | 4 | [X] |
+| 10 | [10-desfaca-commits.md](comandos/10-desfaca-commits.md) | Desfaça commits | 2 | [X] |
+| 11 | [11-sincronize-mudancas.md](comandos/11-sincronize-mudancas.md) | Sincronize mudanças | 4 | [ ] |
 | | | **Total** | **37** | |
 
 Marque a coluna **Concluído** com `[x]` conforme for fechando cada arquivo.
