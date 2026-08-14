@@ -19,11 +19,11 @@ git reset [commit]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Desfaz os commits posteriores ao commit especificado mantendo as alterações dos arquivos no seu diretório de trabalho. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use quando quiser reorganizar ou juntar vários commits locais sem perder o código que já escreveu.-->
 
 ---
 
@@ -35,18 +35,18 @@ git reset --hard [commit]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Descarta completamente todos os commits e alterações nos arquivos feitas após o commit especificado.-->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use com muito cuidado apenas quando quiser jogar fora todo o trabalho feito e voltar o código exatamente para um estado antigo.-->
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git reset [commit]`
-- [ ] 2. `git reset --hard [commit]`
+- [x] 1. `git reset [commit]`
+- [x] 2. `git reset --hard [commit]`
 
 ---
 
