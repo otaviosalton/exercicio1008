@@ -211,6 +211,8 @@ git push
 | 07 | [07-suprima-o-monitoramento.md](comandos/07-suprima-o-monitoramento.md) | Suprima o monitoramento | 2 | [ ] |
 | 08 | [08-salve-fragmentos.md](comandos/08-salve-fragmentos.md) | Salve fragmentos | 4 | [ ] |
 | 09 | [09-revise-o-historico.md](comandos/09-revise-o-historico.md) | Revise o histórico | 4 | [X] |
+| 08 | [08-salve-fragmentos.md](comandos/08-salve-fragmentos.md) | Salve fragmentos | 4 | [X] |
+| 09 | [09-revise-o-historico.md](comandos/09-revise-o-historico.md) | Revise o histórico | 4 | [ ] |
 | 10 | [10-desfaca-commits.md](comandos/10-desfaca-commits.md) | Desfaça commits | 2 | [ ] |
 | 11 | [11-sincronize-mudancas.md](comandos/11-sincronize-mudancas.md) | Sincronize mudanças | 4 | [X] |
 | 10 | [10-desfaca-commits.md](comandos/10-desfaca-commits.md) | Desfaça commits | 2 | [X] |
