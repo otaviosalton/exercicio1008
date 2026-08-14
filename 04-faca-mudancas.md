@@ -19,11 +19,11 @@ git status
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Exibe o estado atual da área de trabalho e quais arquivos foram modificados ou adicionados. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use frequentemente para verificar quais arquivos estão pendentes de commit antes de enviar suas alterações. -->
 
 ---
 
@@ -35,11 +35,11 @@ git diff
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Mostra as diferenças exatas de linhas alteradas nos arquivos antes de serem adicionados à fila de commit. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para revisar linha por linha o que você alterou no código antes de executar o comando git add. -->
 
 ---
 
@@ -51,11 +51,11 @@ git add [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Adiciona as alterações de um arquivo específico para a área de preparação chamada staging. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use quando quiser selecionar individualmente apenas um arquivo alterado para incluir no próximo commit. -->
 
 ---
 
@@ -67,11 +67,11 @@ git diff --staged
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Mostra as diferenças entre os arquivos que já estão no staging e a última versão salva no repositório. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para conferir as alterações que foram preparadas com o git add antes de confirmar o commit definitivo. -->
 
 ---
 
@@ -83,11 +83,11 @@ git reset [arquivo]
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Remove o arquivo da área de preparação mantendo as alterações feitas no seu código local intactas. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use quando adicionar um arquivo por engano no staging com o git add e quiser removê-lo da fila. -->
 
 ---
 
@@ -99,22 +99,22 @@ git commit -m "[mensagem descritiva]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Grava as alterações preparadas no histórico do repositório acompanhadas de uma mensagem explicativa. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use para salvar oficialmente um conjunto de mudanças concluídas e manter um histórico organizado do projeto.. -->
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git status`
-- [ ] 2. `git diff`
-- [ ] 3. `git add [arquivo]`
-- [ ] 4. `git diff --staged`
-- [ ] 5. `git reset [arquivo]`
-- [ ] 6. `git commit -m "[mensagem descritiva]"`
+- [x] 1. `git status`
+- [x] 2. `git diff`
+- [x] 3. `git add [arquivo]`
+- [x] 4. `git diff --staged`
+- [x] 5. `git reset [arquivo]`
+- [x] 6. `git commit -m "[mensagem descritiva]"`
 
 ---
 
