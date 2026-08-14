@@ -19,11 +19,11 @@ git config --global user.name "[nome]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Define o nome do autor que será associado a todos os seus commits neste computador. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Deve ser executado logo após instalar o Git para identificar quem fez cada alteração nos projetos. -->
 
 ---
 
@@ -35,18 +35,18 @@ git config --global user.email "[endereco-de-email]"
 
 **O que faz:**
 
-<!-- TODO: escreva sua explicação aqui. Uma frase por linha. -->
+<!-- Define o e-mail do autor que será vinculado a todas as alterações gravadas no histórico. -->
 
 **Quando usar / observação:**
 
-<!-- TODO: opcional, mas conta ponto. -->
+<!-- Use o mesmo e-mail cadastrado na sua conta do GitHub para que os commits fiquem vinculados ao seu perfil. -->
 
 ---
 
 ## Checklist deste arquivo
 
-- [ ] 1. `git config --global user.name "[nome]"`
-- [ ] 2. `git config --global user.email "[endereco-de-email]"`
+- [X] 1. `git config --global user.name "[nome]"`
+- [X] 2. `git config --global user.email "[endereco-de-email]"`
 
 ---
 
